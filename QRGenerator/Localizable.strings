@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  QRGenerator
+
+  Created by Mangrulkar on 01/02/21.
+  Copyright © 2021 Vibha. All rights reserved.
+*/
+
+
+// Contact
+
+"alert.title.validation" = "Validation";
+"alert.message.validation" = "Please add name and phone number";
+"alert.button.title" = "Ok";
+"alert.api.failed" = "Failed";
+"alert.api.failed.message" = "Network Error!";
+"marginLabel.title" = "Margin:->  ";
+"widthHeight.title" = "Width X Height:->  ";
+"name.title" = "Name: ";
+"number.title" = " Number:";
+
+
+// Share
+"alert.api.success" = "Success";
+"alert.api.success.message" = "Contact details saved successfully";
+"nameField.title" = "Name:-> ";
+"numberField.title" = "Phone Number:-> ";
+
+//History
+"alert.api.noHistory" = "Alert";
+"alert.api.noHistory.message" = "No history found.";

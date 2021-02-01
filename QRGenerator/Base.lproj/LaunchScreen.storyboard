@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboardBG" translatesAutoresizingMaskIntoConstraints="NO" id="GOA-4n-Bhq">
+                                <rect key="frame" x="9" y="0.0" width="405" height="736"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="4rm-Nv-ywW">
+                                <rect key="frame" x="82.666666666666671" y="100.00000000000001" width="248.66666666666663" height="248.33333333333337"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4rm-Nv-ywW" secondAttribute="height" multiplier="1:1" id="e3g-xM-AXy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QR CODE GENERATOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXU-7r-KGW">
+                                <rect key="frame" x="0.0" y="356.33333333333331" width="414" height="24"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qXU-7r-KGW" firstAttribute="top" secondItem="4rm-Nv-ywW" secondAttribute="bottom" constant="8" id="6Aj-ZH-QzD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qXU-7r-KGW" secondAttribute="trailing" id="M0L-gj-L3P"/>
+                            <constraint firstItem="4rm-Nv-ywW" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="Ovg-1O-ZmO"/>
+                            <constraint firstItem="GOA-4n-Bhq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="9" id="S0y-ou-iI0"/>
+                            <constraint firstItem="GOA-4n-Bhq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UtY-3v-AWk"/>
+                            <constraint firstItem="GOA-4n-Bhq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WIx-L8-WmR"/>
+                            <constraint firstItem="GOA-4n-Bhq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="axc-mG-zUz"/>
+                            <constraint firstItem="4rm-Nv-ywW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mdf-aC-Wwc"/>
+                            <constraint firstItem="4rm-Nv-ywW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="nLe-N9-TcL"/>
+                            <constraint firstItem="qXU-7r-KGW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yqN-Xw-uNu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dashboardBG" width="1060" height="1060"/>
+        <image name="qrcode" width="510" height="480"/>
+    </resources>
+</document>
